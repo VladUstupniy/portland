@@ -1,0 +1,17 @@
+extends ../layouts/layout.pug
+
+block variables 
+    -var title = 'Главная'
+
+block content 
+    include ../sections/header.pug
+    include ../sections/header-navigation.pug
+    include ../sections/header-sort.pug
+    .container
+        .wrap 
+            include ../sections/sidebar.pug 
+            include ../sections/products-card.pug
+    include ../sections/pagination.pug
+    include ../sections/best-sellers.pug
+    include ../sections/users.pug
+    include ../sections/footer.pug

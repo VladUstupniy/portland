@@ -1,0 +1,10 @@
+mixin product-best-sellers(imgsrc, title, color, oldprice, price)
+    .best-sellers-card
+        .best-sellers__img 
+            img(src="img/best-sellers/" + imgsrc, alt="Photo")
+        .best-sellers-content 
+            .best-sellers__title= title
+            .best-sellers__color= color
+            .best-sellers__prices
+                .best-sellers__oldprice= oldprice
+                .best-sellers__price= price

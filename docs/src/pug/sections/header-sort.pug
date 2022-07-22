@@ -1,0 +1,30 @@
+.container 
+    .filtres 
+        .sort-left 
+            .sort-left__wrap 
+                .sort-left__desc Sort by: 
+                .sort-left__match Best match
+                .sort__img 
+                    img(src="./img/icons/open-icon.svg", alt="Open arrow")
+
+        .sort-center
+            .sort-center__wrap  
+                .sort-center__desc Keywords
+                input(type="text" placeholder="Tablet").sort__input-text
+            .sort-center__wrap   
+                .sort-center__desc Price 
+                input(type="number" placeholder="1").sort__input-number
+                .sort-center__desc -
+                input(type="number" placeholder="1000").sort__input-number
+            .sort-center__wrap  
+                input(type="checkbox" id="free").sort-iput__checkbox
+                label(for="free").label-checkbox Free Shipping
+        .sort-right
+            .sort-right__wrap 
+                .sort-right__desc Ship to : 
+                .sort-right__match USA 
+                .sort__img 
+                    img(src="./img/icons/open-icon.svg", alt="Open arrow")
+
+
+

@@ -1,0 +1,41 @@
+.button {
+    height: 32px;
+    border-radius: 16px;
+    border: 2px solid #e3e8f0;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 7px;
+    padding-bottom: 11px;
+
+    color: @dark-blue;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+
+    .button:first-child {
+        border-radius: 17px 0 0 17px;
+        border-left: 2px solid @border-color;
+    }
+
+    .button {
+        border-radius: 0;
+        border: 2px solid @border-color;
+        border-left: none;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            background-color: @border-color;
+        }
+    }
+
+    .button:last-child {
+        border-radius: 0 17px 17px 0;
+        border: 2px solid @border-color;
+        border-left: none;
+    }
+}

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/main.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body> 
+    <header class="header-bg"> 
+      <div class="container"> 
+        <div class="header"> <a href="#"> <img src="./img/logo/portland.svg" alt="Logo"></a>
+          <nav class="nav"> <a class="nav__link" href="#"> Home </a><a class="nav__link" href="#"> Devices  </a><a class="nav__link" href="#"> About Us </a><a class="nav__link" href="#"> Guarantee  </a><a class="nav__link" href="#"> Delivery & Payment  </a></nav>
+          <div class="header-right"> 
+            <div class="header-cart"> 
+              <div class="header-cart__icon"> <img src="./img/icons/shopping-cart-icon.svg" alt="Cart"></div>
+              <div class="header-cart__title">Cart </div>
+              <div class="header-cart__counter">0</div>
+            </div><a class="button">Sign In</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="header-navigation-bg"> 
+      <div class="container"> 
+        <div class="header-navigation"> 
+          <div class="navigation-list"> <a class="navigation-list__item" href="#">Top Sales </a><a class="navigation-list__item" href="#">Brand Focus </a><a class="navigation-list__item navigation-list__item--active" href="#">Hi-Tech </a><a class="navigation-list__item" href="#">Projects  </a><a class="navigation-list__item" href="#">Best Sellers </a></div>
+          <div class="header-navigation-right"> 
+            <div class="header-support">Support</div>
+            <div class="header-search"> 
+              <label class="header-search__label">
+                <input class="header-search__input" type="text" placeholder="I'm looking for ...">
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      <div class="filtres"> 
+        <div class="sort-left"> 
+          <div class="sort-left__wrap"> 
+            <div class="sort-left__desc">Sort by: </div>
+            <div class="sort-left__match">Best match</div>
+            <div class="sort__img"> <img src="./img/icons/open-icon.svg" alt="Open arrow"></div>
+          </div>
+        </div>
+        <div class="sort-center">
+          <div class="sort-center__wrap"> 
+            <div class="sort-center__desc">Keywords</div>
+            <input class="sort__input-text" type="text" placeholder="Tablet">
+          </div>
+          <div class="sort-center__wrap">  
+            <div class="sort-center__desc">Price </div>
+            <input class="sort__input-number" type="number" placeholder="1">
+            <div class="sort-center__desc">-</div>
+            <input class="sort__input-number" type="number" placeholder="1000">
+          </div>
+          <div class="sort-center__wrap"> 
+            <input class="sort-iput__checkbox" type="checkbox" id="free">
+            <label class="label-checkbox" for="free">Free Shipping</label>
+          </div>
+        </div>
+        <div class="sort-right">
+          <div class="sort-right__wrap"> 
+            <div class="sort-right__desc">Ship to : </div>
+            <div class="sort-right__match">USA </div>
+            <div class="sort__img"> <img src="./img/icons/open-icon.svg" alt="Open arrow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="wrap"> 
+        <div class="sidebar"> 
+          <div class="sidebar-pages"> 
+            <div class="sidebar-pages__list"> 
+              <div class="sidebar-pages__item sidebar-pages-1"> <a class="sidebar-pages__link" href="#"> 
+                  <div class="sidebar-pages__text">Top Sales</div>
+                  <div class="sidebar-pages__img"><img src="./img/icons/open-icon.svg" alt="Arrow"></div></a></div>
+              <div class="sidebar-pages__item active-item open-1"><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Coming soon...</div></a></div>
+              <div class="sidebar-pages__item sidebar-pages-2"> <a class="sidebar-pages__link" href="#">
+                  <div class="sidebar-pages__text">Brand Focus</div>
+                  <div class="sidebar-pages__img"> <img src="./img/icons/open-icon.svg" alt="Arrow"></div></a></div>
+              <div class="sidebar-pages__item active-item open-2"><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Coming soon...</div></a></div>
+              <div class="sidebar-pages__item sidebar-pages-3"><a class="sidebar-pages__link" href="#" id="link">
+                  <div class="sidebar-pages__text">Hi-Tech</div>
+                  <div class="sidebar-pages__img"> <img src="./img/icons/open-icon.svg" alt="Arrow"></div></a></div>
+              <div class="sidebar-pages__item active-item open-3"><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Cell Phones  </div></a><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Cameras</div></a><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Computers</div></a><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Tv, Audio</div></a><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Video Games</div></a></div>
+              <div class="sidebar-pages__item sidebar-pages-4"> <a class="sidebar-pages__link" href="#">
+                  <div class="sidebar-pages__text">Home</div>
+                  <div class="sidebar-pages__img">    <img src="./img/icons/open-icon.svg" alt="Arrow"></div></a></div>
+              <div class="sidebar-pages__item active-item open-4"><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Coming soon...</div></a></div>
+              <div class="sidebar-pages__item sidebar-pages-5"><a class="sidebar-pages__link" href="#">
+                  <div class="sidebar-pages__text">Sales</div>
+                  <div class="sidebar-pages__img"> <img src="./img/icons/open-icon.svg" alt="Arrow"></div></a></div>
+              <div class="sidebar-pages__item active-item open-5"><a class="sidebar-pages__sub-link" href="">
+                  <div class="sidebar-pages__sub-item">Coming soon...</div></a></div>
+            </div>
+          </div>
+          <div class="sidebar-sort">
+            <div class="sidebar-sort__wrap">
+              <div class="sidebar-sort__title">Available </div>
+            </div>
+            <div class="form"> 
+              <div class="form-radio__wrap">
+                <div class="form-radio">
+                  <input class="form-input__radio" type="radio" id="storage" name="radio" value="1">
+                  <label class="form-label__radio" for="storage">In Storage</label>
+                </div>
+                <div class="quantity">45</div>
+              </div>
+              <div class="form-radio__wrap">
+                <div class="form-radio">
+                  <input class="form-input__radio" type="radio" id="online-shop" name="radio" value="2">
+                  <label class="form-label__radio" for="online-shop">In Online-Shop</label>
+                </div>
+                <div class="quantity">12</div>
+              </div>
+            </div>
+            <div class="sidebar-sort__wrap">
+              <div class="sidebar-sort__title">Brands</div><a href="#">all </a>
+            </div>
+            <div class="form"> 
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-apple">
+                  <label class="form-label__checkbox" for="checkbox-apple">Apple </label>
+                </div>
+                <div class="quantity">32</div>
+              </div>
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-jbl">
+                  <label class="form-label__checkbox" for="checkbox-jbl">JBL</label>
+                </div>
+                <div class="quantity">14</div>
+              </div>
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-bose">
+                  <label class="form-label__checkbox" for="checkbox-bose">Bose</label>
+                </div>
+                <div class="quantity">3</div>
+              </div>
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-nest">
+                  <label class="form-label__checkbox" for="checkbox-nest">Nest</label>
+                </div>
+                <div class="quantity">5</div>
+              </div>
+            </div>
+          </div>
+          <div class="condition-point">
+            <div class="sidebar-sort__wrap">
+              <div class="sidebar-sort__title">Condition</div><a href="#">see all </a>
+            </div>
+            <div class="form"> 
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-New">
+                  <label class="form-label__checkbox" for="checkbox-New">New </label>
+                </div>
+              </div>
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-manufacturer">
+                  <label class="form-label__checkbox" for="checkbox-manufacturer">Manufacturer Refurbished</label>
+                </div>
+              </div>
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-seller">
+                  <label class="form-label__checkbox" for="checkbox-seller">Seller Refurbished</label>
+                </div>
+              </div>
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-used">
+                  <label class="form-label__checkbox" for="checkbox-used">Used </label>
+                </div>
+              </div>
+              <div class="form-checkbox__wrap">
+                <div class="form-checkbox">
+                  <input class="form-input__checkbox" type="checkbox" id="checkbox-for">
+                  <label class="form-label__checkbox" for="checkbox-for">For Parts or not Working</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-product"> 
+          <div class="row justify-content-end">
+            <div class="col-md-4">
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/apple-tv.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Apple TV 32GB</div>
+                  <div class="product-card__color">Black</div>
+                  <div class="product-card__price">$49.99</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"> 
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/watch.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Pebble Time</div>
+                  <div class="product-card__color">Red</div>
+                  <div class="product-card__price">$29.99</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"> 
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/zendure.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Zendure 4-port USB</div>
+                  <div class="product-card__color">White</div>
+                  <div class="product-card__price">$39.99</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-end">
+            <div class="col-md-4"> 
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/analyzer.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Withings Smart Body Analyzer ws-50</div>
+                  <div class="product-card__color">Blue</div>
+                  <div class="product-card__price">$49.99</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="product-card-big">
+                <div class="product-card-big__img" style="background-image: url('./img/products/jbl-bg.jpg')"> 
+                  <div class="product-card-big__price">$39.99</div>
+                </div>
+                <div class="product-card-big-content"> 
+                  <div> 
+                    <div class="product-card-big__title">Charge 2+</div>
+                    <div class="product-card-big__color">Black</div>
+                  </div>
+                  <div class="button-group"> 
+                    <div class="button">16 GB</div>
+                    <div class="button">Buy Now </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-end">   
+            <div class="col-md-4"> 
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/ollo.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Ollo Clip New</div>
+                  <div class="product-card__color">Silver</div>
+                  <div class="product-card__price">$19.99</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"> 
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/tracker.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Fitbit Charge HR Heart Rate and Activity Tracker</div>
+                  <div class="product-card__color">Black</div>
+                  <div class="product-card__price">$19.99</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"> 
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/apple-watch.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Apple Watch Sport 38mm Silver Aluminum Case</div>
+                  <div class="product-card__color">White</div>
+                  <div class="product-card__price">$49.99</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-end">       
+            <div class="col-md-4"> 
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/headphones.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Bose SoundLink On-Ear Headphones</div>
+                  <div class="product-card__color">White</div>
+                  <div class="product-card__price">$119.99</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"> 
+              <div class="product-card">
+                <div class="product-card__img"> <img src="img/products/hifi.jpg" alt="Photo"/></div>
+                <div class="product-card-content"> 
+                  <div class="product-card__title">Sonos Play-1 Wireless HiFi System</div>
+                  <div class="product-card__color">Black</div>
+                  <div class="product-card__price">$99.99</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"> 
+              <div class="product-card-mini"> 
+                <div class="product-card-mini__img" style="background-image: url('./img/products/thermostat-bg.jpg')"> 
+                  <div class="product-card-big__title">Nest Learning Thermostat, 3rd Generation</div>
+                  <div class="product-card-mimi__price">$49.99</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      <div class="pagination-bg"> 
+        <div class="pagination-left"> <a class="pagination-arrow__link" href="#"> <img src="./img/icons/prev-icon.svg" alt="Pagination arrow left"></a></div>
+        <div class="pagination-pages"> <a class="pagination-pages__link" href="#">1</a><a class="pagination-pages__link" href="#">2</a><a class="pagination-pages__link" href="#">3</a><a class="pagination-pages__link pagination-pages__link--active" href="#">4</a><a class="pagination-pages__link" href="#">5</a><a class="pagination-pages__link" href="#">6</a><a class="pagination-pages__link" href="#">7</a><a class="pagination-pages__link" href="#">8</a></div>
+        <div class="pagination-right"><a href="#"> <img src="./img/icons/next-icon.svg" alt="Pagination arrow right"></a></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="best-sellers"> 
+        <div class="best-sellers__heading">Best Sellers</div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-3">
+            <div class="best-sellers-card">
+              <div class="best-sellers__img"> <img src="img/best-sellers/photo-1.png" alt="Photo"/></div>
+              <div class="best-sellers-content"> 
+                <div class="best-sellers__title">Beanie</div>
+                <div class="best-sellers__color">Green</div>
+                <div class="best-sellers__prices">
+                  <div class="best-sellers__oldprice">$39.99</div>
+                  <div class="best-sellers__price">$29.99</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="best-sellers-card">
+              <div class="best-sellers__img"> <img src="img/best-sellers/photo-2.png" alt="Photo"/></div>
+              <div class="best-sellers-content"> 
+                <div class="best-sellers__title">T-Shirt With a Print</div>
+                <div class="best-sellers__color">Dark Blue</div>
+                <div class="best-sellers__prices">
+                  <div class="best-sellers__oldprice">$29.99</div>
+                  <div class="best-sellers__price">$19.99</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="best-sellers-card">
+              <div class="best-sellers__img"> <img src="img/best-sellers/photo-3.png" alt="Photo"/></div>
+              <div class="best-sellers-content"> 
+                <div class="best-sellers__title">Pile-Lined Hooded Jacket</div>
+                <div class="best-sellers__color">Dark Blue</div>
+                <div class="best-sellers__prices">
+                  <div class="best-sellers__oldprice">$49.99</div>
+                  <div class="best-sellers__price">$39.99</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="best-sellers-card">
+              <div class="best-sellers__img"> <img src="img/best-sellers/photo-4.png" alt="Photo"/></div>
+              <div class="best-sellers-content"> 
+                <div class="best-sellers__title">Trainers</div>
+                <div class="best-sellers__color">Space Gray</div>
+                <div class="best-sellers__prices">
+                  <div class="best-sellers__oldprice">$39.99</div>
+                  <div class="best-sellers__price">$29.99</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="users-bg">
+      <div class="users-heading">What Our Customers Have to Say</div>
+      <div class="users-subtitle">Couple of Words About This Stories Section</div>
+      <div class="users-cards">   
+        <div class="user-card"> 
+          <div class="user-data"> 
+            <div class="user-photo"> <img src="./img/users/user-1.png" alt="Photo"></div>
+            <div class="user-data__wrap">
+              <div class="user-name">Celia Fields</div>
+              <div class="user-post">UX Expert</div>
+            </div>
+          </div>
+          <div class="user-desc">
+            <p>This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</p>
+          </div>
+        </div>
+        <div class="user-card"> 
+          <div class="user-data"> 
+            <div class="user-photo"> <img src="./img/users/user-2.png" alt="Photo"></div>
+            <div class="user-data__wrap">
+              <div class="user-name">Alexander Lee</div>
+              <div class="user-post">Founder</div>
+            </div>
+          </div>
+          <div class="user-desc">
+            <p>Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.</p>
+          </div>
+        </div>
+        <div class="user-card"> 
+          <div class="user-data"> 
+            <div class="user-photo"> <img src="./img/users/user-3.png" alt="Photo"></div>
+            <div class="user-data__wrap">
+              <div class="user-name">Lenora Sandoval</div>
+              <div class="user-post">Product Manager</div>
+            </div>
+          </div>
+          <div class="user-desc">
+            <p>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer"> 
+      <div class="container">
+        <div class="footer-wrap"><a href="#"> <img src="./img/logo/portland-footer-logo.svg" alt="Logo"></a>
+          <nav class="footer-nav"> <a class="nav__link" href="#"> Home </a><a class="nav__link" href="#"> Shop </a><a class="nav__link" href="#"> Team</a><a class="nav__link" href="#"> About Us  </a><a class="nav__link" href="#"> Contacts</a></nav>
+          <div class="footer-icon"> <a class="footer-icon__link" href="#"> <img src="./img/icons/twitter-icon.svg" alt="Icon Twitter"></a><a class="footer-icon__link" href="#"> <img src="./img/icons/facebook-icon.svg" alt="Icon Facebook"></a><a class="footer-icon__link" href="#"> <img src="./img/icons/g-icon.svg" alt="Icon G+"></a></div>
+        </div>
+      </div>
+      <div class="footer-underline"> 
+        <div class="footer-text">She gave my mother such a turn, that I have always been convinced I am indebted to <br> Miss Betsey for having been born on a Friday.</div>
+        <div class="footer-underline__right"> 
+          <div class="footer-privacy"> <a href="#">Privacy policy</a></div>
+          <div class="footer-terms"> <a href="#"> Terms and conditions</a></div>
+        </div>
+      </div>
+    </footer>
+    <script src="./libs/jquery-3.6.0.min.js"> </script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
